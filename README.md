@@ -14,20 +14,3 @@ This Python script demonstrates how to solve a maze using the breadth-first sear
 
 5. **Main Function:** The `main` function initializes the `curses` library, calls `find_path` to find the path through the maze, and waits for a key press before exiting.
 
-## How to use
-
-1. Install the `curses` library (usually included in Python's standard library).
-   
-   ```bash
-   pip install windows-curses (for windows users)
-   ```
-   
-2. Run the script.
-
-   ```bash
-   python maze_solver.py
-   ```
-
-3. The maze will be displayed in the terminal window, with the path from the start (`'O'`) to the end (`'X'`) highlighted in red. The pathfinding process will be animated, showing each step of the algorithm.
-
-Feel free to modify the `maze` variable to create your own mazes and experiment with different layouts!
